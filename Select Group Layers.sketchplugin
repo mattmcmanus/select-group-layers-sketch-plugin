@@ -1,0 +1,22 @@
+// Select all child layers of a group (cmd alt A)
+
+function is_group(layer) {
+  return [layer isMemberOfClass:[MSLayerGroup class]] || [layer isMemberOfClass:[MSArtboardGroup class]]
+}
+
+function selectChildren(layers) {
+  for (var x=0; x < [layers count]; x++){
+    var childLayer = layers[x];
+    [childLayer select:true byExpandingSelection:true]
+  }
+}
+
+for (var i=0; i < [selection count]; i++){
+  var layer = selection[i];
+
+  if (is_group(layer)) {
+    [layer select:false byExpandingSelection:true]
+
+    selectChildren([layer layers]);
+  }
+}
