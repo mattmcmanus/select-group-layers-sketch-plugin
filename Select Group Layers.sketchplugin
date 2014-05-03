@@ -6,7 +6,7 @@ function is_group(layer) {
 
 function selectChildren(layers) {
   for (var x=0; x < [layers count]; x++){
-    var childLayer = layers[x];
+    var childLayer = layers.array()[x];
     [childLayer select:true byExpandingSelection:true]
   }
 }
