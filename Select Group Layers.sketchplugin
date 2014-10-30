@@ -18,5 +18,8 @@ for (var i=0; i < [selection count]; i++){
     [layer select:false byExpandingSelection:true]
 
     selectChildren([layer layers]);
+  } else {
+    var parentGroup = [layer parentGroup];
+    selectChildren([parentGroup layers]);;
   }
 }
