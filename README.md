@@ -12,5 +12,7 @@ If you have an individual layer already selected, hitting **Ctrl + Alt + A** wil
 
 ## Install
 
-1. [Download the repo](https://github.com/mattmcmanus/select-child-layers.sketchplugin/archive/master.zip) and extract it
-2. Copy `Select Group Layers.sketchplugin` to `~/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application Support/com.bohemiancoding.sketch3/Plugins/`
+1. [Download the repo](https://github.com/mattmcmanus/select-child-layers.sketchplugin/archive/master.zip) and extract it. You should have a folder nameed `select-child-layers-sketch-plugin`
+2. With sketch open, click the menu `Plugins > Reveal Plugins Folder...`
+3. Drag the `select-child-layers-sketch-plugin` folder into the revealed folder
+4. Enjoy! ![](http://bukk.it/beats.gif)
