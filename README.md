@@ -1,16 +1,10 @@
-Sketch Plugin: Select Group Layers
-================================
-Make it easy to select a group of layers at once! All you need is **Cmd + Alt + a**!
+# Sketch Plugin: Select Group Layers
 
-If you have a group selected, **Cmd + Alt + a** will select all of the group's child layers
+Use **Cmd + Alt + a** to select a groups child layers or, if a layer is selected, add all of its siblings to the current selection
 
-![So much less clicking](https://dl.dropboxusercontent.com/u/784691/SketchSelectChildLayers.gif)
-
-If you have an individual layer already selected, hitting **Cmd + Alt + a** will select all of the layer's peers
-
-![Ohh la la](http://f.cl.ly/items/0C2c0b2x2K0K3u0F0u11/Screen%20Recording%202014-10-30%20at%2005.20%20PM.gif)
+![Much Efficient!](https://d26dzxoao6i3hh.cloudfront.net/items/330E3N1H402h432P3x2H/Screen%20Recording%202017-07-06%20at%2003.45%20PM.gif?v=66e196c2)
 
 ## Install
 
-1. [Download the repo](https://github.com/mattmcmanus/select-child-layers.sketchplugin/archive/master.zip) and extract it.
-2. Open the unzipped directory and double click on `Select Group Layers.sketchplugin`
+1. [Download the latest zip from the releases page](https://github.com/mattmcmanus/select-group-layers-sketch-plugin/releases) and extract it.
+2. Open the unzipped directory and double click on `SelectGroupLayers.sketchplugin`
