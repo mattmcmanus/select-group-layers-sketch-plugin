@@ -77,25 +77,31 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 exports["default"] = function (context) {
-  function selectChildren(group) {
-    group.deselect();
-    group.iterate(function (layer) {
-      layer.addToSelection();
-    });
-  }
-
   var sketch = context.api();
-  var selection = sketch.selectedDocument.selectedLayers;
+  var selectedLayers = sketch.selectedDocument.selectedLayers;
 
-  selection.iterate(function (layer) {
+
+  selectedLayers.iterate(function (layer) {
+    layer.deselect();
+
     if (layer.isGroup) {
-      selectChildren(layer);
+      selectChildLayers(layer);
     } else {
       var container = layer.container;
-      selectChildren(container);
+      selectChildLayers(container);
     }
   });
 };
+
+function isLayer(layer) {
+  return !layer.isGroup;
+}
+
+function selectChildLayers(group) {
+  group.iterateWithFilter(isLayer, function (layer) {
+    layer.addToSelection();
+  });
+}
 
 /***/ })
 /******/ ]);

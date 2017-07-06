@@ -1,20 +1,25 @@
+function isLayer(layer) {
+  return !layer.isGroup;
+}
+
+function selectChildLayers(group) {
+  group.iterateWithFilter(isLayer, function(layer) {
+    layer.addToSelection();
+  });
+}
+
 export default function(context) {
-  function selectChildren(group) {
-    group.deselect();
-    group.iterate(function(layer) {
-      layer.addToSelection();
-    });
-  }
-
   let sketch = context.api()
-  let selection = sketch.selectedDocument.selectedLayers;
+  let { selectedLayers } = sketch.selectedDocument;
 
-  selection.iterate(function(layer) {
+  selectedLayers.iterate(function(layer) {
+    layer.deselect();
+
     if (layer.isGroup) {
-      selectChildren(layer);
+      selectChildLayers(layer);
     } else {
       let container = layer.container;
-      selectChildren(container);
+      selectChildLayers(container);
     }
   })
 }
