@@ -1,6 +1,6 @@
 {
 	"name": "select-group-layers-sketch-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Sketch Plugin: Select Group Layers",
 	"main": "SelectGroupLayers.sketchplugin",
 	"dependencies": {},
