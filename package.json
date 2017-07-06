@@ -2,7 +2,7 @@
 	"name": "select-group-layers-sketch-plugin",
 	"version": "1.0.0",
 	"description": "Sketch Plugin: Select Group Layers",
-	"main": "Select Group Layers.sketchplugin",
+	"main": "SelectGroupLayers.sketchplugin",
 	"dependencies": {},
 	"devDependencies": {
 		"skpm": "^0.10.0"
