@@ -8,3 +8,10 @@ Use **Cmd + Alt + a** to select a groups child layers or, if a layer is selected
 
 1. [Download the latest zip from the releases page](https://github.com/mattmcmanus/select-group-layers-sketch-plugin/releases) and extract it.
 2. Open the unzipped directory and double click on `SelectGroupLayers.sketchplugin`
+
+## Changelog
+
+* 1.0.1 - *2017-07-06*
+  * When selecting child or siblings, do not select groups
+* 1.0.0 - *some time in the past*
+  * Main release
