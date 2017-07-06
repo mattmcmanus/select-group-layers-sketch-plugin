@@ -1,5 +1,7 @@
 Sketch Plugin: Select Group Layers
 ================================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/mattmcmanus/select-group-layers-sketch-plugin.svg)](https://greenkeeper.io/)
 Make it easy to select a group of layers at once! All you need is **Cmd + Alt + a**!
 
 If you have a group selected, **Cmd + Alt + a** will select all of the group's child layers
