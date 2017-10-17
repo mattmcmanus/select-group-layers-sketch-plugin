@@ -1,29 +1,29 @@
 {
-	"name": "select-group-layers-sketch-plugin",
-	"version": "1.0.1",
-	"description": "Sketch Plugin: Select Group Layers",
-	"main": "SelectGroupLayers.sketchplugin",
-	"dependencies": {},
-	"devDependencies": {
-		"skpm": "^0.10.0"
-	},
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "skpm build",
-		"publish": "skpm publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/mattmcmanus/select-group-layers-sketch-plugin.git"
-	},
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/mattmcmanus/select-group-layers-sketch-plugin/issues"
-	},
-	"homepage": "https://github.com/mattmcmanus/select-group-layers-sketch-plugin#readme",
-	"engines": {
-		"sketch": ">=3.0"
-	},
-	"manifest": "src/manifest.json"
+  "name": "select-group-layers-sketch-plugin",
+  "version": "1.0.2",
+  "description": "Sketch Plugin: Select Group Layers",
+  "main": "SelectGroupLayers.sketchplugin",
+  "dependencies": {},
+  "devDependencies": {
+    "skpm": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "skpm build",
+    "publish": "skpm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmcmanus/select-group-layers-sketch-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattmcmanus/select-group-layers-sketch-plugin/issues"
+  },
+  "homepage": "https://github.com/mattmcmanus/select-group-layers-sketch-plugin#readme",
+  "engines": {
+    "sketch": ">=3.0"
+  },
+  "manifest": "src/manifest.json"
 }
