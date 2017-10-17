@@ -1,0 +1,27 @@
+{
+  "name": "Select Group Layers",
+  "identifier": "io.mcmanus.select-group-layers",
+  "version": "1.0.0",
+  "description": "Select child or sibling layers with a key command",
+  "authorEmail": "matt@mcmanus.io",
+  "author": "Matt McManus",
+  "homepage": "https://github.com/mattmcmanus/select-group-layers-sketch-plugin",
+  "compatibleVersion": 3.9,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "script": "select-group-layers.js",
+      "shortcut": "cmd alt a",
+      "name": "Select Group Layers",
+      "identifier": "select-group-layers"
+    }
+  ],
+  "menu": {
+    "items": [
+      "select-group-layers"
+    ],
+    "isRoot": true
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/mattmcmanus/select-group-layers-sketch-plugin/master/.appcast.xml"
+}
