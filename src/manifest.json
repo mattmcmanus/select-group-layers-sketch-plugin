@@ -1,7 +1,6 @@
 {
   "name" : "Select Group Layers",
   "identifier" : "io.mcmanus.select-group-layers",
-  "version" : "1.0.0",
   "description" : "Select child or sibling layers with a key command",
   "authorEmail" : "matt@mcmanus.io",
   "author" : "Matt McManus",
